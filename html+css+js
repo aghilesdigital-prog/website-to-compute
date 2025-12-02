@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة رائد التسويقية - الدليل الشامل</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+</head>
+<body>
+
+    <header>
+        <h1>🌟 اكتشف عالم التسويق مع رائد! 🌟</h1>
+        <p>دليلك لبناء مهارات تسويقية قوية والنجاح في عالم الأعمال الرقمي.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">من أنا؟</a></li>
+            <li><a href="#services">ملخصات ودروس</a></li>
+            <li><a href="#video">شاهد أحدث ريلز</a></li>
+            <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <h2>مستقبل التسويق يبدأ من هنا.</h2>
+            <p>انضم إلينا لتتعلم أحدث الاستراتيجيات التسويقية، من الصفر حتى الاحتراف.</p>
+            <button class="cta-button">ابدأ رحلتك التعليمية الآن!</button>
+        </section>
+
+        <section id="about">
+            <h2>✨ من أنا؟ ✨</h2>
+            <img src="https://via.placeholder.com/150/00897b/FFFFFF?text=R" alt="صورة رائد متخصص في التسويق" class="profile-img">
+            
+            <p>
+                مرحباً! اسمي **رائد**، طالب تسويق شغوف بمشاركة المعرفة مع الشباب الطموح. أؤمن بأن التسويق هو مفتاح النجاح لأي مشروع، وهدفي هو تمكينك بالمهارات اللازمة.
+            </p>
+            
+            <h3>الخبرات والمؤهلات:</h3>
+            <ul>
+                <li>**التخصص:** طالب سنة ثالثة تسويق رقمي.</li>
+                <li>**المشاريع:** مؤسس صفحة تعليمية على إنستغرام بـ [عدد] متابع.</li>
+                <li>**المهارات:** تحليل المنافسين، إدارة الحملات الإعلانية، كتابة محتوى الويب.</li>
+            </ul>
+        </section>
+
+        <section id="services">
+            <h2>💡 ملخصات ودروس أساسية 💡</h2>
+            <p>إليك أهم المواضيع التي تساعدك في الدراسة وتطبيق التسويق:</p>
+            <ul>
+                <li><a href="#" target="_blank">ملخص كامل: الفروقات بين التسويق التقليدي والرقمي (مهم للامتحان).</a></li>
+                <li><a href="#" target="_blank">دليل المبتدئين لتحليل SWOT للمشاريع الصغيرة.</a></li>
+                <li><a href="#" target="_blank">أفضل 3 أدوات مجانية يجب أن يعرفها كل مسوق.</a></li>
+            </ul>
+        </section>
+
+        <section id="video">
+            <h2>📺 شاهد أحدث فيديو (Reel) 📺</h2>
+            <div class="video-container">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" frameborder="0" allowfullscreen class="video-iframe"></iframe>
+                <p class="video-desc">**تحفيز:** 3 أخطاء تضيع وقتك كطالب تسويق! لا تفوت المشاهدة.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>📞 تواصل معي 📞</h2>
+            <p>للاستفسارات، الشراكات، أو للمساعدة في مشروعك:</p>
+            <a href="mailto:your_email@example.com" class="contact-link email-btn">البريد الإلكتروني</a>
+            <a href="https://instagram.com/your_instagram_id" target="_blank" class="contact-link instagram-btn">صفحتي على إنستغرام</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 صفحة رائد التسويقية. تم التصميم بواسطة الذكاء الاصطناعي وبجهودك!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+/* ================================================= */
+/* === كود CSS لصفحتك التسويقية (style.css) === */
+/* ================================================= */
+
+/* --- الإعدادات الأساسية والخطوط --- */
+body {
+    font-family: 'Cairo', 'Tahoma', sans-serif; /* استخدام خط Cairo */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa; /* خلفية فاتحة جداً */
+    color: #333;
+    line-height: 1.7;
+    direction: rtl; 
+    text-align: right;
+}
+
+/* --- العناوين والألوان الأساسية --- */
+header, section h2 {
+    color: #1a73e8; /* أزرق احترافي (لون Google) */
+}
+
+/* --- شريط العنوان (Header) --- */
+header {
+    background-color: #1a73e8; 
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- شريط التنقل (Navigation) --- */
+nav {
+    background-color: #333; 
+    padding: 0.8rem 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #1a73e8; /* لون التفاعل أزرق */
+}
+
+/* --- المحتوى الرئيسي والأقسام --- */
+main {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+section {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* ظل أعمق وأجمل */
+}
+section h2 {
+    font-size: 2.2rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+/* --- قسم من أنا (About) --- */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px 0 20px 25px;
+    border: 5px solid #1a73e8;
+    float: right; /* وضع الصورة على اليمين في RTL */
+}
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+#about ul li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+/* --- زر الدعوة للعمل (CTA Button) --- */
+.cta-button {
+    background-color: #f4b400; /* أصفر جوجل (جذاب ومختلف) */
+    color: #333; /* نص داكن */
+    padding: 18px 40px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #e69d00;
+    transform: scale(1.03);
+}
+
+/* --- قسم الفيديو --- */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* نسبة 16:9 للفيديو */
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-desc {
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+/* --- روابط التواصل --- */
+.contact-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.email-btn {
+    background-color: #DB4437; /* أحمر (Gmail) */
+    color: white;
+}
+.instagram-btn {
+    background-color: #C13584; /* بنفسجي (Instagram) */
+    color: white;
+}
+.email-btn:hover, .instagram-btn:hover {
+    opacity: 0.9;
+}
+
+/* --- الشريط السفلي (Footer) --- */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #333;
+    color: #ccc;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+/* --- استجابة الشاشات الصغيرة (Mobile) --- */
+@media (max-width: 650px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .profile-img {
+        float: none;
+        display: block;
+        margin: 15px auto 20px auto;
+    }
+    .cta-button {
+        padding: 15px 30px;
+        font-size: 1.1rem;
+    }// =================================================
+// === كود JavaScript لصفحتك التسويقية (script.js) ===
+// =================================================
+
+// 1. رسالة ترحيبية فور تحميل الصفحة
+window.onload = function() {
+    console.log("الصفحة جاهزة للعمل!");
+    // يمكن هنا إظهار رسالة بسيطة
+    // alert("مرحباً بك! موقعك يعمل بشكل ممتاز.");
+};
+
+// 2. تفعيل التفاعل على زر الدعوة للعمل (CTA Button)
+const ctaButton = document.querySelector('.cta-button');
+
+function handleCtaClick(event) {
+    // منع السلوك الافتراضي للزر (إذا كان زر إرسال نموذج)
+    event.preventDefault();
+
+    // تغيير محتوى الزر وتنسيقه
+    ctaButton.textContent = "🎉 شكراً لك! سيتم نقلك للأسفل! 🎉";
+    ctaButton.style.backgroundColor = '#1a73e8'; // أزرق
+
+    // بعد التفاعل، قم بنقل المستخدم بلطف إلى قسم الملخصات
+    setTimeout(() => {
+        document.querySelector('#services').scrollIntoView({ 
+            behavior: 'smooth' 
+        });
+    }, 500); // 500ms = نصف ثانية انتظار
+    
+    // إزالة خاصية النقر لتجنب التكرار
+    ctaButton.removeEventListener('click', handleCtaClick);
+}
+
+ctaButton.addEventListener('click', handleCtaClick);
+
+
+// 3. إضافة ميزة التمرير السلس (Smooth Scrolling) لروابط القائمة
+document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // منع القفز السريع
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth' // التمرير بسلاسة
+        });
+    });
+});
+}
